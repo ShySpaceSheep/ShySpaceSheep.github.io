@@ -9,7 +9,7 @@ p {
 }
 
 /* Footer properties */
-#footer {
+#footer-container {
     color: white;
     background-color: rgb(27, 27, 27);
     padding: 20px;
