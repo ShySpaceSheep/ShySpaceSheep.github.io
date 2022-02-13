@@ -56,6 +56,10 @@ body {
     margin: 85px 100px 85px 100px;
 }
 
+#content-container h1 {
+    font-size: 55px;
+}
+
 /* Footer CSS properties down here!*/
 #bottomLine {
     margin: 0px 350px 0px 350px;
