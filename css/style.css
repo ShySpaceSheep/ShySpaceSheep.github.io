@@ -80,6 +80,7 @@ main {
     color: white;
     text-align: center;
     font-family: Segoe UI;
+    font-weight: 1;
     background-color: rgb(27, 27, 27);
     padding: 20px;
 }
