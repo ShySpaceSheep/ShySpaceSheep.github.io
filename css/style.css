@@ -24,6 +24,34 @@ p {
     display: inline-block;
 }
 
+#titleLogo {
+    font-size: 30px;
+    text-align: center;
+    text-decoration: none;
+    font-family: 'Lucida Sans Unicode';
+    color: rgb(226, 226, 226);
+    padding: 10px 0px 10px 0px;
+}
+
+#navButtonsContainer {
+    position: relative;
+    left: 645px;
+}
+
+.navButton:link, .navButton:visited {
+    font-size: 20px;
+    text-align: center;
+    text-decoration: none;
+    font-family: Segoe UI;
+    color: rgb(192, 192, 192);
+    padding: 0px 20px 10px 20px;
+    transition: .2s;
+}
+
+.navButton:hover {
+    color: white;
+}
+
 /* Main - Content CSS properties in here! */
 
 
