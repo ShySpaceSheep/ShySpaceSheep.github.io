@@ -66,6 +66,10 @@ main {
     font-size: 20px;
 }
 
+#content-container {
+    margin: 85px 100px 85px 100px;
+}
+
 /* Footer CSS properties down here!*/
 #bottomLine {
     margin: 0px 350px 0px 350px;
@@ -80,7 +84,7 @@ main {
     color: white;
     text-align: center;
     font-family: Segoe UI;
-    font-weight: 1;
+    font-weight: 400;
     background-color: rgb(27, 27, 27);
     padding: 20px;
 }
