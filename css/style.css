@@ -11,7 +11,11 @@ p {
 }
 
 /* Temp <hr> for under construction header: */
-hr {
+h1 {
+  text-align: center;
+  font-size: 50px;
+  font-family: Segoe UI;
+}
     
 
 /* Header - Navigation Bar CSS properties up here! */
@@ -58,12 +62,25 @@ hr {
 }
 
 /* Main - Content CSS properties in here! */
-
+main {
+    font-size: 20px;
+}
 
 /* Footer CSS properties down here!*/
-#footer-container {
+#bottomLine {
+    margin: 0px 350px 0px 350px;
+    padding: 0px 0px 25px 0px;
+}
+
+#bottomLine hr {
+    border: 1px dashed rgb(156, 156, 156);
+}
+
+#footer {
     color: white;
+    text-align: center;
+    font-family: Segoe UI;
     background-color: rgb(27, 27, 27);
     padding: 20px;
-    text-align: center;
 }
+
