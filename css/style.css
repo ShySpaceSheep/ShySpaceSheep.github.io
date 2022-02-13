@@ -6,8 +6,13 @@ body {
 }
 
 p {
+    text-align: center;
     font-family: Segoe UI;
 }
+
+/* Temp <hr> for under construction header: */
+hr {
+    
 
 /* Header - Navigation Bar CSS properties up here! */
 #navigationBar {
