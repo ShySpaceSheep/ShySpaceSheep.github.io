@@ -1,87 +1,87 @@
-/* CSS Body Reset "Removing the auto padding at the header section */
 body {
     margin: 0;
     padding: 0;
     background-color: rgb(249, 248, 255);
 }
 
-/* Header - Navigation Bar CSS properties up here! */
-#navigationBar {
+.navigation-bar {
     top: 0;
-    z-index: 1;
-    position: fixed;
     width: 100%;
-    padding: 0px 100px 0px 100px;
+    box-sizing: border-box;
+    position: fixed;
+    display: grid;
+    grid-template-columns: auto auto;
+    padding: 10px 120px 10px 120px;
     background-color: rgb(43, 43, 43);
 }
 
-#navigationBar div {
-    text-align: center;
-    display: inline-block;
-}
-
-#titleLogo {
-    font-size: 30px;
-    text-align: center;
-    text-decoration: none;
-    font-family: 'Lucida Sans Unicode';
-    color: rgb(226, 226, 226);
-    padding: 10px 0px 10px 0px;
-}
-
-#navButtonsContainer {
-    position: relative;
-    left: 645px;
-}
-
-.navButton:link, .navButton:visited {
+a.navigation-item:link, a.navigation-item:visited {
+    float: left;
+    width: 25%;
     font-size: 20px;
-    text-align: center;
     text-decoration: none;
     font-family: Segoe UI;
     color: rgb(192, 192, 192);
-    padding: 0px 20px 10px 20px;
-    transition: .2s;
+    transition: .5s;
 }
 
-.navButton:hover {
+a.navigation-item:hover {
     color: white;
 }
 
-/* Main - Content CSS properties in here! */
-#content-container {
+.img-header {
+    font-family: Segoe UI;
     font-size: 20px;
     text-align: center;
-    font-family: Segoe UI;
-    margin: 85px 100px 85px 100px;
+    margin-top: 64px;
+    padding: 75px 150px 150px 150px;
+    color: rgb(241, 241, 241);
+    background-image: url("../files/img/banner-main.png");
+    border-width: 10px;
 }
 
-#content-container h1 {
-    font-size: 55px;
+.img-header h1 {
+    font-size: 72px;
+    margin: 0px;
 }
 
-/* Footer CSS properties down here!*/
-#bottomLine {
-    margin: 0px 350px 0px 350px;
-    padding: 0px 0px 25px 0px;
+.img-header a:link, a:visited {
+    border: 3px solid;
+    border-color: rgb(241, 241, 241);
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 24px;
+    color: rgb(241, 241, 241);
+    transition: .5s;
 }
 
-#bottomLine hr {
-    border: 1px dashed rgb(156, 156, 156);
+.img-header a:hover {
+    color: rgb(27, 27, 27);
+    background-color: rgb(241, 241, 241);
 }
 
-#footer {
+.highlighted-projects {
+    padding: 250px 50px 250px 50px;
+    font-size: 32px;
+    text-align: center;
+}
+
+.footer-container {
     color: white;
     text-align: center;
     font-family: Segoe UI;
     font-weight: 400;
     background-color: rgb(27, 27, 27);
-    padding: 20px;
+    padding: 45px;
 }
 
-/* General CSS classes */
-.center {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
+#website-logo {
+    width: 100%;
+}
+
+#navigation-links {
+    width: 100%;
+    padding-top: 5px;
+    text-align: center;
 }
