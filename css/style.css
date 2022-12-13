@@ -63,6 +63,7 @@ a.navigation-item:hover {
 
 .highlighted-projects {
     padding: 250px 50px 250px 50px;
+    font-family: Segoe UI;
     font-size: 32px;
     text-align: center;
 }
