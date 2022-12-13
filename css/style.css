@@ -77,6 +77,23 @@ a.navigation-item:hover {
     padding: 45px;
 }
 
+.project-container {
+    font-family: Segoe UI;
+    font-size: 18px;
+    text-align: center;
+    margin-top: 64px;
+    padding: 15px 150px 150px 150px;
+}
+
+.project-container .header-holder {
+    margin: 0px 256px 0px 256px;
+    font-size: 32px;
+    color: rgb(241, 241, 241);
+    border: none;
+    border-radius: 42px;
+    background-color: rgb(27, 27, 27);
+}
+
 #website-logo {
     width: 100%;
 }
