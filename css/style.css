@@ -6,6 +6,7 @@ body {
 
 .navigation-bar {
     top: 0;
+    z-index: 10;
     width: 100%;
     box-sizing: border-box;
     position: fixed;
@@ -82,7 +83,7 @@ a.navigation-item:hover {
     font-size: 18px;
     text-align: center;
     margin-top: 64px;
-    padding: 15px 150px 150px 150px;
+    padding: 15px 205px 150px 205px;
 }
 
 .project-container .header-holder {
@@ -92,6 +93,34 @@ a.navigation-item:hover {
     border: none;
     border-radius: 42px;
     background-color: rgb(27, 27, 27);
+}
+
+.project-grid {
+    width: 100%;
+    box-sizing: border-box;
+    align-items: center;
+    display: grid;
+    grid-column-gap: 10px;
+    grid-row-gap: 20px;
+    grid-template-columns: auto auto auto;
+    border: 3px solid;
+    border-color: red;
+}
+
+.project-box {
+    float: left;
+    z-index: 1;
+    width: 33.3%;
+    margin: auto;
+    padding: 112px 122px 250px 122px;
+    border: 3px dashed;
+    border-color: red;
+    background-color: white;
+    transition: transform .2s;
+}
+
+.project-box:hover {
+    transform: scale(1.1);
 }
 
 #website-logo {
