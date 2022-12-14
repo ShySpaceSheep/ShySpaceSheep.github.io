@@ -139,6 +139,11 @@ form.search-bar button:hover {
     grid-template-columns: auto auto auto;
 }
 
+.project-grid a {
+    text-decoration: none;
+    color: black;
+}
+
 .project-box {
     float: left;
     z-index: 1;
@@ -152,17 +157,20 @@ form.search-bar button:hover {
 }
 
 div.img-box img {
+    object-fit: cover;
     width: 100%;
-    height: auto;
+    height: 200px;
 }
 
 div.box-desc {
-    padding: 45px;
+    padding: 30px;
+    overflow: hidden;
     text-align: center;
+    font-style: italic;
 }
 
 .project-box:hover {
-    transform: scale(1.05);
+    transform: scale(1.035);
 }
 
 #website-logo {
