@@ -95,6 +95,35 @@ a.navigation-item:hover {
     background-color: rgb(27, 27, 27);
 }
 
+form.search-bar input[type=text] {
+    margin: 0px 10px 0px;
+    padding: 10px 25px 10px 25px;
+    font-size: 17px;
+    width: 50%;
+    border-radius: 24px;
+    border: 1px solid rgb(27, 27, 27);
+    background-color: white;
+}
+
+form.search-bar button {
+    border: 3px solid;
+    border-color: rgb(27, 27, 27);
+    background-color: transparent;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 24px;
+    color: rgb(27, 27, 27);
+    font-size: 17px;
+    cursor: pointer;
+    transition: .5s;
+}
+
+form.search-bar button:hover {
+    background-color: rgb(27, 27, 27);
+    color:rgb(241, 241, 241);
+}
+
 .project-grid {
     width: 100%;
     box-sizing: border-box;
@@ -103,8 +132,6 @@ a.navigation-item:hover {
     grid-column-gap: 10px;
     grid-row-gap: 20px;
     grid-template-columns: auto auto auto;
-    border: 3px solid;
-    border-color: red;
 }
 
 .project-box {
@@ -113,8 +140,6 @@ a.navigation-item:hover {
     width: 33.3%;
     margin: auto;
     padding: 112px 122px 250px 122px;
-    border: 3px dashed;
-    border-color: red;
     background-color: white;
     transition: transform .2s;
 }
