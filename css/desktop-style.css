@@ -34,23 +34,23 @@ a.navigation-item:hover {
     color: white;
 }
 
-.img-header {
+.img-banner {
     font-family: Segoe UI;
     font-size: 20px;
     text-align: center;
     margin-top: 64px;
     padding: 75px 150px 150px 150px;
     color: rgb(241, 241, 241);
-    background-image: url("../files/img/banner-main.png");
+    background-image: url("../media/img/bg-banners/banner-main.png");
     border-width: 10px;
 }
 
-.img-header h1 {
+.img-banner h1 {
     font-size: 72px;
     margin: 0px;
 }
 
-.img-header a:link, a:visited {
+.img-banner a:link, a:visited {
     border: 3px solid;
     border-color: rgb(241, 241, 241);
     padding: 10px 20px;
@@ -61,7 +61,7 @@ a.navigation-item:hover {
     transition: .5s;
 }
 
-.img-header a:hover {
+.img-banner a:hover {
     color: rgb(27, 27, 27);
     background-color: rgb(241, 241, 241);
 }
