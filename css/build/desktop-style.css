@@ -41,7 +41,8 @@ a.navigation-item:hover {
     margin-top: 64px;
     padding: 75px 150px 150px 150px;
     color: rgb(241, 241, 241);
-    background-image: url("../media/img/bg-banners/banner-main.png");
+    background-image: url("../../media/img/bg-banners/banner-main.png");
+    box-shadow: 0px 10px 25px 1px rgba(0,0,0,0.75);
     border-width: 10px;
 }
 
