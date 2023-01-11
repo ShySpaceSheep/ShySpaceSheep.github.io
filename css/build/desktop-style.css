@@ -1,3 +1,8 @@
+@font-face {
+    font-family: Louis George Cafe;
+    src: url(../../media/fonts/louis_george_cafe.ttf) format("truetype");
+}
+
 body {
     margin: 0;
     padding: 0;
@@ -13,7 +18,8 @@ body {
     position: fixed;
     display: grid;
     grid-template-columns: auto auto;
-    padding: 10px 120px 10px 120px;
+    padding: 10px 150px 10px 150px;
+    box-shadow: 0px 10px 15px 1px rgba(0,0,0,0.25);
     background-color: rgb(43, 43, 43);
 }
 
@@ -34,24 +40,35 @@ a.navigation-item:hover {
     color: white;
 }
 
-.img-banner {
-    font-family: Segoe UI;
+.img-banner-box {
+    font-family: Louis George Cafe;
+    display: flex;
     font-size: 20px;
     text-align: center;
     margin-top: 64px;
-    padding: 75px 150px 150px 150px;
+    /*padding: 75px 150px 150px 150px;*/
     color: rgb(241, 241, 241);
     background-image: url("../../media/img/bg-banners/banner-main.png");
-    box-shadow: 0px 10px 25px 1px rgba(0,0,0,0.75);
-    border-width: 10px;
+    box-shadow: 0px 10px 20px 1px rgba(0,0,0,0.50);
 }
 
-.img-banner h1 {
+.banner-welcome {
+    width: 50%;
+    padding: 75px 150px 150px 150px;
+}
+
+.banner-gallery {
+    width: 50%;
+    align-items: center;
+    text-align: center;
+}
+
+.img-banner-box h1 {
     font-size: 72px;
     margin: 0px;
 }
 
-.img-banner a:link, a:visited {
+.img-banner-box a:link, a:visited {
     border: 3px solid;
     border-color: rgb(241, 241, 241);
     padding: 10px 20px;
@@ -62,7 +79,7 @@ a.navigation-item:hover {
     transition: .5s;
 }
 
-.img-banner a:hover {
+.img-banner-box a:hover {
     color: rgb(27, 27, 27);
     background-color: rgb(241, 241, 241);
 }
