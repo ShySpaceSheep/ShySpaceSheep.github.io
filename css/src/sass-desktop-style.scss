@@ -1,13 +1,11 @@
-/* Universal styles for all web pages which includes headers and footers, etc... */
 $bg-maincolor: rgb(241, 241, 241);
 $nav-col: rgb(43, 43, 43);
 $footer-col: rgb(30, 30, 30);
-
 @font-face {
     font-family: Louis George Cafe;
     src: url(../../media/fonts/louis_george_cafe.ttf) format("truetype");
 }
-
+/* Universal styles for all web pages which includes headers and footers, etc... */
 body {
     margin: 0px;
     padding: 0px;
@@ -51,10 +49,24 @@ body {
     }
 }
 
+.generic-content {
+    text-align: center;
+    padding: 100px 50px 100px 50px;
+}
+
+.footer-container {
+    color: $bg-maincolor;
+    font-family: Louis George Cafe;
+    text-align: center;
+    padding: 35px 0px 35px 0px;
+    background-color: $footer-col;
+}
+
+/* Homepage styles are located here, everything unique in the homepage is resided here: */
 .homepage-banner {
     text-align: center;
     margin-top: 72px;
-    padding: 75px 150px 150px 150px;
+    padding: 50px 150px 100px 150px;
     font-size: 20px;
     color: $bg-maincolor;
     font-family: Louis George Cafe;
@@ -63,14 +75,23 @@ body {
     box-shadow: 0px 10px 20px 1px rgba(0,0,0,0.5);
 
     h1 {
-        
+        font-size: 72px;
+        margin: 0px;
     }
-}
 
-.footer-container {
-    color: $bg-maincolor;
-    font-family: Louis George Cafe;
-    text-align: center;
-    padding: 30px 0px 30px 0px;
-    background-color: $footer-col;
+    a:link, a:visited {
+        border: 3px solid;
+        border-color: rgb(241, 241, 241);
+        padding: 10px 20px;
+        text-align: center;
+        text-decoration: none;
+        border-radius: 24px;
+        color: rgb(241, 241, 241);
+        transition: .5s;
+    }
+
+    a:hover {
+        color: rgb(27, 27, 27);
+        background-color: rgb(241, 241, 241);
+    }
 }
