@@ -42,31 +42,14 @@ a.navigation-item:hover {
 
 .img-banner-box {
     font-family: Louis George Cafe;
-    display: flex;
-    width: 100%;
     font-size: 20px;
     text-align: center;
     margin-top: 72px;
-    /*padding: 75px 150px 150px 150px;*/
+    padding: 75px 150px 150px 150px;
     color: rgb(241, 241, 241);
     background-image: url("../../media/img/bg-banners/banner-main.png");
     background-size: cover;
-    box-shadow: 0px 10px 20px 1px rgba(0,0,0,0.50);
-}
-
-.banner-welcome {
-    width: 50%;
-    background-color: rgba(0,0,0,0.25);
-    margin: 65px 55px 55px 55px;
-    padding: 75px 75px 100px 75px;
-}
-
-.banner-gallery {
-    width: 50%;
-    align-items: center;
-    text-align: center;
-    margin: 65px 55px 55px 55px;
-    background-color: rgba(0,0,0,0.25);;
+    box-shadow: 0px 10px 20px 1px rgba(0,0,0,0.5);
 }
 
 .img-banner-box h1 {

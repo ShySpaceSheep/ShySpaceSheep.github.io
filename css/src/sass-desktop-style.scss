@@ -1,0 +1,76 @@
+/* Universal styles for all web pages which includes headers and footers, etc... */
+$bg-maincolor: rgb(241, 241, 241);
+$nav-col: rgb(43, 43, 43);
+$footer-col: rgb(30, 30, 30);
+
+@font-face {
+    font-family: Louis George Cafe;
+    src: url(../../media/fonts/louis_george_cafe.ttf) format("truetype");
+}
+
+body {
+    margin: 0px;
+    padding: 0px;
+    background-color: $bg-maincolor;
+}
+
+.navigation-bar {
+    top: 0px;
+    z-index: 10;
+    width: 100%;
+    display: flex;
+    position: fixed;
+    align-items: center;
+    box-sizing: border-box;
+    padding: 10px 150px 10px 150px;
+    background-color: $nav-col;
+    box-shadow: 0px 10px 15px 1px rgba(0,0,0,0.25);
+
+    a.navigation-item:link, a.navigation-item:visited {
+        float: left;
+        width: 25%;
+        padding: 10px 0px 10px 0px;
+        font-size: 20px;
+        text-decoration: none;
+        font-family: Segoe UI;
+        color: rgb(192, 192, 192);
+        transition: .5s;
+    }
+    a.navigation-item:hover {
+        color: white;
+        border-radius: 24px;
+        background-color: black;
+    }
+    #website-logo {
+        width: 100%;
+    }
+    #navigation-links {
+        width: 100%;
+        padding-top: 5px;
+        text-align: center;
+    }
+}
+
+.homepage-banner {
+    text-align: center;
+    margin-top: 72px;
+    padding: 75px 150px 150px 150px;
+    font-size: 20px;
+    color: $bg-maincolor;
+    font-family: Louis George Cafe;
+    background-size: cover;
+    background-image: url("../../media/img/bg-banners/banner-main.png");
+    box-shadow: 0px 10px 20px 1px rgba(0,0,0,0.5);
+
+    h1 {
+        
+    }
+}
+
+.footer-container {
+    color: $bg-maincolor;
+    font-family: Louis George Cafe;
+    text-align: center;
+    padding: 30px 0px 30px 0px;
+    background-color: $footer-col;
+}
